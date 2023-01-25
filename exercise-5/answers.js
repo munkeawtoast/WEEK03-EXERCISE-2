@@ -3,6 +3,23 @@ function plus(input){
     
 }
 
+// TODO: แก้ประเภทตัวแปลใน function นี้ให้ค่าที่ return ออกมาตรงกับคำตอบ 41
+// *** เปลี่ยนได้เฉพาะประเภทตัวแปล ***
+// global variable
+let a = 'Hello';
+
+function greet() {
+    // local variable
+    let b = 'World';
+    if (b == 'World') {
+        // block-scoped variable
+        let c = 'hello';
+    }
+
+    // variable c cannot be accessed here
+    console.log(a + ' ' + b + ' ' + c);
+}
+
 function varLetConst() {
     // TODO: แก้ประเภทตัวแปลใน function นี้ให้ค่าที่ return ออกมาตรงกับคำตอบ 41
     // *** เปลี่ยนได้เฉพาะประเภทตัวแปล ***
