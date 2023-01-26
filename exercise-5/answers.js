@@ -18,6 +18,7 @@ function greet() {
 
     // variable c cannot be accessed here
     console.log(a + ' ' + b + ' ' + c);
+    return a + ' ' + b + ' ' + c
 }
 
 function varLetConst() {

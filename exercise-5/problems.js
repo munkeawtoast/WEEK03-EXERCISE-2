@@ -30,7 +30,7 @@ const problems = [
             </details>
         `,
         testcases: [
-            { input: null, expect: 41, result: null }
+            { input: null, expect: 'Hello World hello', result: null }
 
         ],
         run: greet
